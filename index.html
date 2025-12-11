@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Quân — Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="hero">
+<div class="container">
+<h1>Quân Diệp</h1>
+<p class="subtitle">Front-end Developer </p>
+<nav class="nav">
+<a href="#about">Giới thiệu</a>
+<a href="#projects">Dự án</a>
+<a href="#contact">Liên hệ</a>
+</nav>
+</div>
+</header>
+
+
+<main class="container">
+<section id="about" class="card">
+<h2>Giới thiệu</h2>
+<p>Tôi là một lập trình viên chuyên xây dựng giao diện web hiện đại, chú trọng trải nghiệm người dùng và hiệu năng.</p>
+<ul class="skills">
+<li>HTML/CSS/JavaScript</li>
+<li>React</li>
+<li>Responsive Web Design</li>
+</ul>
+</section>
+
+
+<section id="projects" class="card">
+<h2>Dự án tiêu biểu</h2>
+<div class="project-grid">
+<article class="project">
+<h3>Dự án bán điện thoại</h3>
+<p>JavaScript,
+PHP,
+HTML,
+CSS
+</p>
+<a target="_blank" rel="noopener noreferrer" href="https://quanbandienthoai.free.nf/" class="btn">Xem</a>
+</article>
+<article class="project">
+<h3>Dự án Landing page</h3>
+<p>JavaScript,
+PHP,
+HTML,
+CSS</p>
+<a target="_blank" rel="noopener noreferrer" href="https://minhhoangadp.com/" class="btn">Xem</a>
+</article>
+</div>
+</section>
+
+
+<section id="contact" class="card">
+<h2>Liên hệ</h2>
+<form id="contactForm">
+<label>Họ và tên<input type="text" name="name" required></label>
+<label>Email<input type="email" name="email" required></label>
+<label>Tin nhắn<textarea name="message" rows="4" required></textarea></label>
+<button type="submit" class="btn">Gửi</button>
+</form>
+</section>
+</main>
+
+
+<footer class="footer">
+<div class="container">© <span id="year"></span> Quân — Built with ♥</div>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
